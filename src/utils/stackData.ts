@@ -1,39 +1,45 @@
-import imgHTML from "../public/static/img/stack/html.svg";
-import imgCSS from "../public/static/img/stack/css.svg";
-import imgJS from "../public/static/img/stack/js.svg";
-import imgNode from "../public/static/img/stack/node.svg";
-import imgStyled from "../public/static/img/stack/styled.svg";
-import imgReact from "../public/static/img/stack/react.svg";
-import { FaVuejs } from "react-icons/fa";
-import { SiTypescript } from "react-icons/si";
-import { FaDocker } from "react-icons/fa";
+import imgHTML from '../public/static/img/stack/html.svg';
+import imgCSS from '../public/static/img/stack/css.svg';
+import imgJS from '../public/static/img/stack/js.svg';
+import imgNode from '../public/static/img/stack/node.svg';
+import imgStyled from '../public/static/img/stack/styled.svg';
+import imgReact from '../public/static/img/stack/react.svg';
+import { SiPython } from 'react-icons/si';
+import { SiTypescript } from 'react-icons/si';
+import { SiDjango } from 'react-icons/si';
+import { SiExpress } from 'react-icons/si';
+import { DiPostgresql } from 'react-icons/di';
+import { BsGithub } from 'react-icons/bs';
 
 export const stackData = [
   {
-    title: "HTML",
+    title: 'HTML',
     img: imgHTML,
   },
   {
-    title: "CSS",
+    title: 'CSS',
     img: imgCSS,
   },
   {
-    title: "JS",
+    title: 'JavaScript',
     img: imgJS,
   },
   {
-    title: "Node JS",
+    title: 'Node JS',
     img: imgNode,
   },
+  { title: 'Express', img: SiExpress },
   {
-    title: "Styled Components",
+    title: 'Styled Components',
     img: imgStyled,
   },
   {
-    title: "React",
+    title: 'React',
     img: imgReact,
   },
-  { title: "Vuejs", img: FaVuejs },
-  { title: "TypeScript", img: SiTypescript },
-  { title: "Docker", img: FaDocker },
+  { title: 'TypeScript', img: SiTypescript },
+  { title: 'Python', img: SiPython },
+  { title: 'Django', img: SiDjango },
+  { title: 'Postgre', img: DiPostgresql },
+  { title: 'Git', img: BsGithub },
 ];
