@@ -10,6 +10,7 @@ import { SiDjango } from 'react-icons/si';
 import { SiExpress } from 'react-icons/si';
 import { DiPostgresql } from 'react-icons/di';
 import { BsGithub } from 'react-icons/bs';
+import { SiNestjs } from 'react-icons/si';
 
 export const stackData = [
   {
@@ -42,4 +43,5 @@ export const stackData = [
   { title: 'Django', img: SiDjango },
   { title: 'Postgre', img: DiPostgresql },
   { title: 'Git', img: BsGithub },
+  { title: 'Nest', img: SiNestjs },
 ];
