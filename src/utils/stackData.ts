@@ -44,6 +44,6 @@ export const stackData = [
   { title: 'Python', img: SiPython },
   { title: 'Django', img: SiDjango },
   { title: 'PostgreSQL', img: DiPostgresql },
-  { title: 'Git', img: BsGithub },
+  { title: 'Git/GitHub', img: BsGithub },
   { title: 'Java', img: FaJava },
 ];
