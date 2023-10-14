@@ -11,6 +11,7 @@ import { SiExpress } from 'react-icons/si';
 import { DiPostgresql } from 'react-icons/di';
 import { BsGithub } from 'react-icons/bs';
 import { SiNestjs } from 'react-icons/si';
+import { FaJava } from 'react-icons/fa';
 
 export const stackData = [
   {
@@ -30,6 +31,7 @@ export const stackData = [
     img: imgNode,
   },
   { title: 'Express', img: SiExpress },
+  { title: 'Nest', img: SiNestjs },
   {
     title: 'Styled Components',
     img: imgStyled,
@@ -43,5 +45,5 @@ export const stackData = [
   { title: 'Django', img: SiDjango },
   { title: 'PostgreSQL', img: DiPostgresql },
   { title: 'Git', img: BsGithub },
-  { title: 'Nest', img: SiNestjs },
+  { title: 'Java', img: FaJava },
 ];
